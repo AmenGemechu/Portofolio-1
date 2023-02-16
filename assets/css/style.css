@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Fira+Sans:wght@300&family=Lato:ital,wght@1,300&family=Oswald:wght@300&display=swap');
 
 header h1 {
-    font-family: Comic Neue, Arial;
+    
     font-weight: 600;
     color: black;
     text-transform: uppercase;
@@ -45,6 +45,7 @@ nav a {
 body {
     background-color: ;
     color: black;
+    font-family: Comic Neue, Arial;
 }
 
 
@@ -52,3 +53,14 @@ body {
     height: 700px;
     width: 100%;
 } 
+
+/* About */
+
+#about {
+    text-align: right;
+}
+
+/* survay form */
+#survay-form {
+    text-align: left;
+}
