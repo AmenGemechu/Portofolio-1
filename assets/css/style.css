@@ -2,8 +2,9 @@
 
 header h1 {
     
-    font-weight: 600;
-    color: black;
+    font-weight: 800;
+    
+    
     text-transform: uppercase;
     letter-spacing: 10px;
     margin: 20px;
@@ -21,8 +22,7 @@ header h1 {
 
 nav li {
     list-style-type: none;
-    margin: 20px;
-    margin-top: 0;
+    margin-right: 20px;
     list-style-type: none;
     padding: 0;
     border: none;
@@ -44,23 +44,45 @@ nav a {
 
 body {
     background-color: ;
-    color: black;
+    color: #fff;
     font-family: Comic Neue, Arial;
+    background-color: black;
 }
 
 
 #hero-image {
-    height: 700px;
+    height: 500px;
     width: 100%;
 } 
 
 /* About */
-
 #about {
-    text-align: right;
+    
 }
 
+#about div {
+    float: left;
+    width: 50%;
+  
+}
+
+#about h1 {
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+/* Apps
+
+#be-my-eyes {
+    margin-left: 20px;
+}
+
+.discription {
+    text-align: center;
+}
+*/
 /* survay form */
 #survay-form {
-    text-align: left;
+    
 }
