@@ -62,8 +62,9 @@ body {
 
 #about div {
     float: left;
-    width: 50%;
-  
+    width: 25%;
+    margin: 0;
+    text-align: center;
 }
 
 #about h1 {
@@ -72,16 +73,7 @@ body {
     letter-spacing: 4px;
 }
 
-/* Apps
 
-#be-my-eyes {
-    margin-left: 20px;
-}
-
-.discription {
-    text-align: center;
-}
-*/
 /* survay form */
 #survay-form {
     
