@@ -53,7 +53,7 @@
   
               
               <div>
-                  <p>
+                  <p class="discription">
                       When the person uses the Be My Eyes app, 
                       they are connected with the assistance of a sighted volunteer via a direct video line. 
                       The volunteer may then help that person negotiate unfamiliar surroundings. 
@@ -69,7 +69,7 @@
   
               
               <div>
-                  <p>
+                  <p class="discription">
                     Communication for nonverbal adults and kids.
                     The JABtalk mobile app takes the text-to-speech functionality one step further to assist 
                     those nonverbal adults and kids better communicate with a complex world. T
@@ -89,7 +89,7 @@
               </div>
   
               <div>
-                  <p>
+                  <p class="discription">
                     The SuperVision+ Magnifier brings the world of the printed word to those with moderate to severe vision impairments. 
                     This magnification app uses the smartphone camera to zoom-in on printed books, 
                     documents, and images — all the while striking a balance between functionality and ease-of-use.
@@ -107,7 +107,7 @@
               </div>
   
               <div>
-                  <p>
+                  <p class="discription">
                     Finding accessible facilities can often be challenging in the urban environment. 
                     Here is an app to help you out. In particular, 
                     this app assists individuals to locate accessible parking and bathrooms when they’re on the move.
@@ -151,17 +151,31 @@
        
          <h2>Which feature do you wish Accessable Apps included?</h2>
        
-         <form>
-            <!--Add drop-down value to disability-->
-            <label for="disablity">Disability</label><br>
-            <input type="text" id="disablity" name="disablity" value="hearing"><br>
+         <form action="/action_page.php">
+            <label for="disabilities">Choose a Disability</label>
+            <select name="disabilities" id="disabilities">
+                <option value="mutism">Mutism</option>
+                <option value="visual-impairment">Visual Impairment</option>
+                <option value="mobility-disabilities">Mobility Disabilities</option>
+                <option value="deaf-and-hard-of-hearing">Deaf and Hard of Hearing</option>
+             
+            </select>
 
-            <!--Add placeholder txt-->
-            <label for="feature">Feature</label><br>
-            <input type="text" id="feature" name="feature" value="voice-assistance"><br><br>
+            <br>
 
+            <label for="features">Choose a Feature</label>
+            <select name="features" id="features">
+                <option value="mutism">Mutism</option>
+                <option value="visual-impairment">Visual Impairment</option>
+                <option value="mobility-disabilities">Mobility Disabilities</option>
+                <option value="deaf-and-hard-of-hearing">Deaf and Hard of Hearing</option>
+             
+            </select>
+            <br><br>
             <input type="submit" value="Submit">
-          </form> 
+          </form>
+           
+          
     </section>
         
 
