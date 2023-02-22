@@ -64,11 +64,14 @@ body {
 }
 
 #cover-text {
-    color: #000;
     font-size: 130%;
     font-family: Comic Neue, Arial;
     text-transform: ;
     letter-spacing: 4px;
+
+    top: 100px;
+    left: 80px;
+    position: absolute;
 
     width: 300px;
     height: 250px;
@@ -76,25 +79,14 @@ body {
     padding-top: 10px;
     padding-left: 20px;
 
-    background-color: #fff;
-
-    top: 100px;
-    left: 80px;
-    position: absolute;
+    background-color: rgba(122, 122, 173, 0.5);
+    color: #fff;
+    
 }
 
 /* About */
 #apps {
     
-}
-
-#apps div {
-    float: left;
-    width: 50%;
-    text-align: center;
-    margin-top: 2%;
-    margin-bottom: 4%;
-    height: 300px;
 }
 
 #apps h1 {
@@ -105,14 +97,24 @@ body {
     
 }
 
+
+#apps div {
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    height: 300px;
+    
+}
+
+
 .img {
     height: 200px;
     width: 300px;
 }
 
-#apps .discription {
-    text-align: justify;
-}
+
 
 /* survay form */
 
@@ -123,3 +125,4 @@ body {
 #feedback h2 {
     font-size: 200%;
 }
+
