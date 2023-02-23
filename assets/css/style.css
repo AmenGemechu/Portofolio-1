@@ -204,6 +204,14 @@ body {
         text-transform: ;
         letter-spacing: 1px;
     }
+
+
+#apps h1 {
+    text-align: center;
+    font-size: 150%;
+    letter-spacing: 2px;
+    margin: 20px;
+    
 }
 
 #apps div {
@@ -230,7 +238,14 @@ body {
   
   }
 
+  #feedback h2 {
+    text-align: center;
+    font-size: 150%;
+    letter-spacing: 2px;
+    margin: 20px;
+}
 
+}
 /*
 .flex-container {
     display: flex;
