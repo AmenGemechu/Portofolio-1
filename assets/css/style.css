@@ -169,11 +169,45 @@ body {
 
 @media screen { max-width: 480px;
 
-    #applications {
-      position: static;
-       
+    #apps div {
+      
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+      height: 350px;
+      width: 300px;
+
+      display: flex;
+      overflow: hidden;
+      flex-wrap: wrap;
+        
+    }
+
+    header {
+        height: 50px;
+        
     }
     
+    #cover-text {
+
+        width: 250px;
+        height: 200px;
+    
+        padding-top: 0;
+        padding-left: 10px;
+
+       
+    
+    }
+
+    #cover-text h3 {
+
+        font-size: 100%;
+        font-family: Comic Neue, Arial;
+        text-transform: ;
+        letter-spacing: 1px;
+    }
 }
 /*
   float: left;
