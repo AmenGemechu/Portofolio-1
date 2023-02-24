@@ -110,11 +110,11 @@ body {
 }
 
 .description {
-  float: left;
+  float: right;
   height: 300px;
   width: 500px;
   font-size: large;
-  text-align: center;
+  text-align: left;
   letter-spacing: 2px;
 
 }
@@ -128,6 +128,7 @@ body {
 
 #feedback {
     text-align: center;
+    width: 100%;
     
 }
 
@@ -136,12 +137,12 @@ body {
     margin: 4%;
 }
 
-.label {
-    width: 300px;
+.form-label {
+    width: 250px;
 }
 
-.input {
-    width: 300px;
+.form-input {
+    width: 250px;
     height: 100px;
   }
 
@@ -214,7 +215,9 @@ body {
         text-align: center;
     }
     #apps {
-        width: ;
+        width: 480px;
+        height: auto;
+        overflow: hidden;
     }
 
     #apps h1 {
@@ -232,6 +235,7 @@ body {
         height: 100px;
         padding-bottom: 20px;
         padding-top: 10px;
+        
     
     }
 
@@ -254,29 +258,21 @@ body {
         text-align: left;
         letter-spacing: 1px;
     }
+    #feedback {
+        overflow: hidden;
+        width: 100%;
+        height: 400px;
+    }
+    #feedback div {
+        width: 100%;
+        height: 200px;
+    }
+    #feedback h2 {
+        text-align: center;
+        font-size: 150%;
+        letter-spacing: 2px;
+        padding-bottom: 20px;
+        padding-top: 30px;
+    }
 
-  #feedback h2 {
-    text-align: center;
-    font-size: 150%;
-    letter-spacing: 2px;
-    margin: 20px;
 }
-
-}
-/*
-.flex-container {
-    display: flex;
-}
-
-.flex-container div {
-
-    margin-left: 4%;
-    margin-bottom: 4%;
-    padding: 2px;
-    font-size: 10px;
-    width: 50%;
-    height: 50px;
-
-  }
-  
-*/
