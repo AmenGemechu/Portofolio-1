@@ -170,7 +170,7 @@ body {
         padding: 0;
         margin: 2%;
         height: 150px;
-        width: 300;
+        width: 250;
     } 
 
     header h1 {
@@ -203,24 +203,20 @@ body {
 
     #cover-text {
 
-        width: 250px;
+        width: 200px;
         height: 200px;
-    
-        padding-top: 0;
-        padding-left: 10px;
-
-        margin-top: 50px;
+        padding: 0;
+        top: 20px;
+        left: 10px;
     
     }
-
-    
-
     #cover-text h3 {
 
         font-size: 100%;
         font-family: Comic Neue, Arial;
         text-transform: ;
         letter-spacing: 1px;
+        text-align: center;
     }
 
 
