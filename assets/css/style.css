@@ -109,7 +109,7 @@ body {
     
 }
 
-.discription {
+.description {
   float: left;
   height: 300px;
   width: 500px;
@@ -119,14 +119,9 @@ body {
 
 }
 
-
-.img {
+.apps-img {
     height: 250px;
     width: 350px;
-}
-
-.img, .discription {
-    line-height: 18px;
 }
 
 /* feedback-form */
@@ -218,39 +213,47 @@ body {
         letter-spacing: 1px;
         text-align: center;
     }
+    #apps {
+        width: ;
+    }
 
-
-#apps h1 {
-    text-align: center;
-    font-size: 150%;
-    letter-spacing: 2px;
-    margin: 20px;
+    #apps h1 {
+        text-align: center;
+        font-size: 150%;
+        letter-spacing: 2px;
+        margin: 20px;
     
-}
+    }
 
-#apps div {
-    float: left;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: 10%;
-
-    width: 80%;
-    height: 100px;
+    #apps div {
+        float: left;
+        margin-left: 5%;
+        width: 100%;
+        height: 100px;
+        padding-bottom: 20px;
+        padding-top: 10px;
     
+    }
 
-    padding-bottom: 30px;
+    .apps-img {
+        height: 100px;
+        width: 150px;
+        float: left;
+    }
+    #apps .description{
+            float: right;
+            width: 80%;
+            height: 300px;
+            margin-right: 5%;
+    }
     
-}
-
-.discription {
-    float: left;
-    height: 100px;
-    width: 300px;
-    font-size: large;
-    text-align: center;
-    letter-spacing: 1px;
-  
-  }
+    .description {
+        height: 100px;
+        width: 200px;
+        font-size: 100%;
+        text-align: left;
+        letter-spacing: 1px;
+    }
 
   #feedback h2 {
     text-align: center;
