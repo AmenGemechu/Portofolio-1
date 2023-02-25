@@ -38,10 +38,6 @@ nav a {
     background-color: gray;
 }
 
-#nav, header h1 {
-    line-height: 100px;
-}
-
 body {
     background-color: #000;
     color: #fff;
@@ -164,9 +160,9 @@ body {
     header {
         border: none;
         padding: 0;
-        margin: 2%;
+        margin-top: 5%;
         height: 150px;
-        width: 250;
+        width: 100%;
     } 
 
     header h1 {
@@ -175,21 +171,27 @@ body {
         letter-spacing: 1px;
         float: left;
         height: 100px;
-        width: 200px;
+        width: 50%;
     }
     
     #nav {
         font-size: 100%;
         letter-spacing: 1px;
-        width: 100px;
+        width: 40%;
         height: 150px;
         padding: 0;
         float: right;
       }
+    #nav ul {
+        float: right;
+        width: inherit;
+        height: inherit;
+    }
 
     #nav li {
-        width: 60px;
-        height: 20px;
+        width: 80px;
+        height: 40px;
+      }
     }
 
     #hero-image {
