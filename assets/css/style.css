@@ -145,18 +145,15 @@ footer {
     list-style-type: none;
 }
 
+/*Media query for large screen*/
 
+@media  and (max-width: 1200px) {
+    
+}
 
 /* Media query for small screen */
 
-@media screen {max-width: 1200px;
-    body {
-    
-    }
-}
-
-
-@media screen { max-width: 480px;
+@media screen and (max-width: 480px;) {
     #home {
         width: 100%;
         height: 400px;
@@ -196,7 +193,6 @@ footer {
     #nav li {
         width: 80px;
         height: 40px;
-      }
     }
 
     #hero-image {
@@ -251,8 +247,8 @@ footer {
         float: left;
     }
     #apps .description{
-            float: right;
-            overflow: hidden;
+        float: right;
+        overflow: hidden;
     }
     
     .description {
