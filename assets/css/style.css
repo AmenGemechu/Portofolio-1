@@ -330,29 +330,31 @@ footer li {
     /*Footer*/
     footer {
         height: 100px;
-        margin-top: 5%;
-        margin-bottom: 5%;
+        width: 100%;
+        margin-top: 10%;
     }
 
-    .social-media-links > li a:hover {
+    footer ul {
+        width: 100%;
+        margin: 0;
+    }
+    footer li {
+        list-style-type: none;
+        text-align: center;
+        padding: 0;
+        font-size: 100%;
+        width: 30%;
+        height: 40px;
+        float: left;
+    }
+
+    footer li a:hover {
         background-color: gray;
     }
 
     footer a {
-        font-size: 150%;
         color: inherit;
+        border: none;
     }
 
-    .social-media-links > li {
-        display: inline;
-        padding: 10px;
-        text-align: center;
-        
-    }
-
-    .social-media-links i {
-        font-size: 160%;
-        margin-top: %;
-        padding: 5%;
-    }
 }
