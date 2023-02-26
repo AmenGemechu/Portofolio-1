@@ -5,7 +5,7 @@ header {
     overflow: hidden;
 }
 header h1 {
-    font-size: 200%;
+    font-size: 300%;
     text-transform: uppercase;
     letter-spacing: 10px;
     margin-bottom: 5%;
@@ -155,14 +155,23 @@ form .form-input {
     
 /*Footer*/
 footer {
-    height: 200px;
+    height: 150px;
+    width: 100%;
 }
 
-.social-media-links > li {
-    display: inline;
-    padding: 20px;
+footer ul {
+    height: 100px;
+    width: 50%;
+    margin-left: 25%;
     text-align: center;
+}
+
+footer li {
+    display: inline;
     list-style-type: none;
+    font-size: 120%;
+    letter-spacing: 4px;
+    padding-right: 30px;
 }
 
 /*Media query for large screen*/
