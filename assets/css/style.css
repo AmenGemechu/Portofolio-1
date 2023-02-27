@@ -68,7 +68,6 @@ body {
 #cover-text {
     font-size: 130%;
     font-family: Comic Neue, Arial;
-    text-transform: ;
     letter-spacing: 4px;
 
     top: 100px;
@@ -330,7 +329,6 @@ footer a:hover {
 
         font-size: 100%;
         font-family: Comic Neue, Arial;
-        text-transform: ;
         letter-spacing: 1px;
         text-align: center;
     }
