@@ -48,7 +48,7 @@ nav a {
 }
 
 body {
-    background-color: hsl(146, 69%, 55%);
+    background-color: hsl(210.7, 56.3%, 31.4%);
     color: #fff;
     font-family: Comic Neue, Arial;
     
@@ -102,6 +102,8 @@ body {
     margin: 30px;
     border: 2px solid white;
     border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
