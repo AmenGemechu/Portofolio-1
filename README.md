@@ -1,16 +1,22 @@
-## Accessible
+# Accessible
 
-Welcome, 
-
- accessible is a LifeHack Website that holds all the applications that will make your life easier as a  person with disabilities. 
- 
+ Accessible is a lifeHack website that displays all sorts of mobile applications specifically created for people with physical disavilities. 
 
 
-On this website users will be able to find useful informations about existing mobile applications that will assist them in their everyday life including, app details, functionality and much more.
+ The website is created to inform users about useful applications out there that will help make their everyday lives easier.
+
+
+In addition to list of applications users will also be able to find information about app details, functionality and device compatibility.
+
+insert image
 
 ## Features
 
-The Header section 
+* Header 
+    - the section displays the website name on the left side.
+* Navigation link 
+    - The navigation bar on the right side displays the  Home, Apps and Feedback links which link to different sections of the page.
+insert pic
 
 ## Testing
 
