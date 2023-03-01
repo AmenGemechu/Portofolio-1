@@ -22,12 +22,12 @@ In addition to list of applications users will also be able to find information 
 ![header](https://user-images.githubusercontent.com/81637641/222140856-69c58b9e-9258-4b04-ba5d-a37277f21348.png)
 
 * Home
- - The Home section displays a hero-image a cover-text telling users what the website is about.
+* - The Home section displays a hero-image a cover-text telling users what the website is about.
 
 ![home](https://user-images.githubusercontent.com/81637641/222145687-cb0a7203-4ad4-4bdf-8c91-e3a089d6c0e3.png)
 
 * Apps
- - The Apps section will allow user to see the listed disable friendly applications, as well as the discription and divice compatability.
+- The Apps section will allow user to see the listed disable friendly applications, as well as the discription and divice compatability.
   
 ![apps](https://user-images.githubusercontent.com/81637641/222147279-d749ea5f-169b-4739-b76e-e44c98e04f39.png)
 
@@ -43,7 +43,7 @@ In addition to list of applications users will also be able to find information 
  ![footer](https://user-images.githubusercontent.com/81637641/222150529-5bf94af4-7d2b-4888-a894-21c052720e48.png)
 
 ## Testing
-Site was tested on different browsers and screen sizes. All features work as intended.
+Site was tested on different browsers (Crome, safari & Firefox) and screen sizes (Laptop, Desktop & Mobile phone). All features work as intended.
   
   * HTML
        - No errors were returned when passing through the official W3C validator
@@ -71,19 +71,23 @@ Site was tested on different browsers and screen sizes. All features work as int
        - From the source section drop-down menu, select the Master Branch
        - Once the master branch has been selected and saved the page will indicate the successful deployment after the processing time was finished.
 
-* The live link can be found here - https://amengemechu.github.io/Portofolio-1/
+* The live link can be found here: 
+* https://amengemechu.github.io/Portofolio-1/
 
 ## Credits
 
 Content
  
- - List of applications and thei content description was taken from https://access2mobility.com/top-8-mobile-apps-for-persons-with-disabilities/
+ - List of applications and thei content description was taken from: 
+ - https://access2mobility.com/top-8-mobile-apps-for-persons-with-disabilities/
    
  - Instructions on how to implement form validation on the feedback form was taken from a w3c schools tutorial.
   
  - The icons in the footer were taken from Font Awesome.
+ https://fontawesome.com/
   
  - Font style was taken from google fonts.
+ - https://fonts.google.com/
 
 Media
 
@@ -92,3 +96,4 @@ Media
   - Application pictures were taken from google images
   
   - The links in the footer were taken from the Loverunning project.
+  - https://amengemechu.github.io/Love-Running/
