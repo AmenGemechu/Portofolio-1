@@ -8,7 +8,7 @@
 
 In addition to list of applications users will also be able to find information about app details, functionality and device compatibility.
 
-insert image
+![Website screenshot]()
 
 ## Features
 
