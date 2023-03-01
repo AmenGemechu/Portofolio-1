@@ -8,7 +8,7 @@
 
 In addition to list of applications users will also be able to find information about app details, functionality and device compatibility.
 
-![Website screenshot]()
+![Website screenshot](https://github.com/AmenGemechu/Portofolio-1/blob/main/assets/images/Screenhot.png)
 
 ## Features
 
