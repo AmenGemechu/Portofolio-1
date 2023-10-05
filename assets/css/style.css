@@ -24,6 +24,7 @@ body {
 .brand-title {
     font-size: 1.5rem;
     margin: .5rem;
+    font-size: 200%;
 }
 
 .navbar-links {
@@ -69,6 +70,31 @@ body {
     border-radius: 10px;
 }
 
+/*Home*/
+.carousel-caption{
+    color: #fff;
+    background: #333;
+    border-radius: 10px;
+  }
+
+/*Apps*/
+#apps {
+    background-color: #333;
+    color: white;
+}
+
+#apps .card {
+    width: 350px;
+    height: 500px;
+    margin: 5%;
+}
+
+.card p {
+    margin: 20px;
+}
+.col-6 {
+    display: grid;
+}
 
 
 /*hero image & cover text
