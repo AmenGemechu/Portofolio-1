@@ -159,36 +159,51 @@
         
     <!--Feedback section-->
     <section id="feedback">
-            <div>
-            
-            <h3>Which feature do you wish these apps included?</h3>
-            <form action=" ">
-                
-                <label for="fname">First name</label>
-                <input class="form-input" type="text" id="fname" name="fname" placeholder="Amy" required>
-                <br>
-                <label for="lname">Last name</label>
-                <input class="form-input" type="text" id="lname" name="lname" placeholder="Smith" required>
-                <br>
-                <label for="email">Email</label>
-                <input class="form-input" type="email" id="email" name="email" placeholder="example@mail.com" required>
-                <br>
-                <label for="features">Features</label>
-                <input class="form-input" type="text" id="features" name="features" placeholder="type here" required>
 
-                <label for="disabilities">Disability</label>
-                <select class="form-input" name="disabilities" id="disabilities">
-                    <option value="mutism">Mutism</option>
-                    <option value="visual-impairment">Visual Impairment</option>
-                    <option value="mobility-disabilities">Mobility Disabilities</option>
-                    <option value="deaf-and-hard-of-hearing">Deaf and Hard of Hearing</option>
-                </select>
-            
-                <br><br>
-                <input class="submit" type="submit" value="Submit">
-            </form>
-            </div> 
-        </section>
+      <div class="card text-center">
+        <div class="card-header">
+         <h4> Which feature do you wish these apps included? </h4>
+        </div>
+
+        <div class="card-body">
+          <div class="mb-3">
+            <label for="fname">First name</label>
+            <input class="form-input" type="text" id="fname" name="fname" placeholder="Amy" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="lname">Last name</label>
+            <input class="form-input" type="text" id="lname" name="lname" placeholder="Smith" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="email">Email</label>
+            <input class="form-input" type="email" id="email" name="email" placeholder="example@mail.com" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="disabilities">Disability</label>
+            <select class="form-input" name="disabilities" id="disabilities">
+              <option value="mutism">Mutism</option>
+              <option value="visual-impairment">Visual Impairment</option>
+              <option value="mobility-disabilities">Mobility Disabilities</option>
+              <option value="deaf-and-hard-of-hearing">Deaf and Hard of Hearing</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label for="features">Features</label>
+            <input class="form-input" type="text" id="features" name="features" placeholder="type here" required>
+          </div>
+          
+        </div>
+        
+        <div class="card-footer text-body-secondary">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+
+    </section>
         
     <footer>
         <ul class="social-media-links">

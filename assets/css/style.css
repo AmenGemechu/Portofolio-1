@@ -96,6 +96,12 @@ body {
     display: grid;
 }
 
+/* Feedback*/
+#feedback .card {
+    background: #333;
+    color: #fff;
+    margin: 5%;
+}
 
 /*hero image & cover text
 
