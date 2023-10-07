@@ -12,6 +12,10 @@ body {
     padding: 0;
 }
 
+nav .brand-title {
+    padding-left: 2%;
+}
+
 .navbar {
     display: flex;
     position: relative;
@@ -29,6 +33,7 @@ body {
 
 .navbar-links {
     height: 100%;
+    padding-right: 2%;
 }
 
 .navbar-links ul {
@@ -81,12 +86,16 @@ body {
 #apps {
     background-color: #333;
     color: white;
+    padding-bottom: 4%;
+    padding-top: 4%;
+}
+
+#apps .col {
+    padding-bottom: 2%;
 }
 
 #apps .card {
     width: 350px;
-    height: 500px;
-    margin: 5%;
 }
 
 .card p {
@@ -103,6 +112,21 @@ body {
     margin: 5%;
 }
 
+/*About*/
+#about {
+    text-align: center;
+}
+
+#about .container-fluid {
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+#about .card {
+    background: #333;
+    color: #fff;
+}
+
 /*Footer*/
 footer {
     background: #333;
@@ -112,6 +136,13 @@ footer {
 footer .row {
     padding: 2%;
 }
+
+@include media-breakpoint-up(sm) {
+    #feedback .custom-class {
+      display: block;
+    }
+  }
+  
 
 
 
