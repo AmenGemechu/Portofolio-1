@@ -45,18 +45,16 @@ Site was tested on different browsers (Crome, safari & Firefox) and screen sizes
   
   * HTML
        - No errors were returned when passing through the official W3C validator
-        
-![w3c-html-validator](https://user-images.githubusercontent.com/81637641/222151228-ab260bb0-ca36-436f-9ee1-1b3e5070f652.png)
+        ![html-validator](https://github.com/AmenGemechu/Portofolio-1/assets/81637641/8a62345f-b70b-4470-af60-99a9cfdc1f9b)
 
    * CSS
   - No errors were found when passing through the official (Jigsaw) validator
 
-![w3c-css-validator](https://user-images.githubusercontent.com/81637641/222151447-52cb3953-46db-4a6c-9c42-20c8142e5aec.png)
+   ![w3c-css-validator](https://user-images.githubusercontent.com/81637641/222151447-52cb3953-46db-4a6c-9c42-20c8142e5aec.png)
 
  * Lighthouse
   - The Lighthouse test was passed successfully.
- 
-![Lighthous](https://user-images.githubusercontent.com/81637641/222152392-d89a29d1-400f-4d97-ac62-018ef76075ac.png)
+ ![light-house](https://github.com/AmenGemechu/Portofolio-1/assets/81637641/bea61f87-45c9-4d97-92e8-16b731b1f7e5)
 
 ## Bugs
  * Unsolved bugs
@@ -78,8 +76,6 @@ Content
  
  - List of applications and thei content description was taken from: 
  - https://access2mobility.com/top-8-mobile-apps-for-persons-with-disabilities/
-   
- - Instructions on how to implement form validation on the feedback form was taken from a w3c schools tutorial.
   
  - The icons in the footer were taken from Font Awesome.
  https://fontawesome.com/
@@ -91,7 +87,7 @@ Media
 
   - The hero-image was taken from https://www.pexels.com/
   
-  - Application pictures were taken from google images
+  - Application pictures were taken from google images.
   
   - The links in the footer were taken from the Loverunning project.
   - https://amengemechu.github.io/Love-Running/
