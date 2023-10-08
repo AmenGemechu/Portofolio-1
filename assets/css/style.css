@@ -106,10 +106,18 @@ nav .brand-title {
 }
 
 /* Feedback*/
-#feedback .card {
+#feedback {
     background: #333;
     color: #fff;
-    margin: 5%;
+    margin: 10%;
+}
+
+#feedback h4 {
+    text-align: center;
+}
+
+#feedback .mb-3 {
+    padding-bottom: 2%;
 }
 
 /*About*/

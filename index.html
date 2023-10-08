@@ -140,50 +140,38 @@
         
     <!--Feedback section-->
     <section id="feedback">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+      
+            <h4> Which feature do you wish these apps included? </h4>
+            <form>
+              <div class="mb-3">
+                <label for="fname" class="form-label">First Name:</label>
+                <input type="fname" class="form-control" id="fname" placeholder="Amy" required aria-describedby="fname">
+              </div>
 
-      <div class="card text-center">
-        <div class="card-header">
-         <h4> Which feature do you wish these apps included? </h4>
-        </div>
+              <div class="mb-3">
+                <label for="lname" class="form-label">Last Name:</label>
+                <input type="lname" class="form-control" id="lname" placeholder="Smith" required aria-describedby="lname">
+              </div>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Disabilities</option>
+                <option value="1">Mutism</option>
+                <option value="2">Visual Impairment</option>
+                <option value="3">Mobility Disabilities</option>
+                <option value="3">Deaf and Hard of Hearing</option>
+              </select>
 
-        <div class="card-body">
-          <div class="mb-3">
-            <label for="fname">First name</label>
-            <input class="form-input" type="text" id="fname" name="fname" placeholder="Amy" required>
+              <label for="features">Features</label>
+              <input class="form-input" type="text" id="features" name="features" placeholder="type here" required>
+
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
           </div>
-
-          <div class="mb-3">
-            <label for="lname">Last name</label>
-            <input class="form-input" type="text" id="lname" name="lname" placeholder="Smith" required>
-          </div>
-
-          <div class="mb-3">
-            <label for="email">Email</label>
-            <input class="form-input" type="email" id="email" name="email" placeholder="example@mail.com" required>
-          </div>
-
-          <div class="mb-3">
-            <label for="disabilities">Disability</label>
-            <select class="form-input" name="disabilities" id="disabilities">
-              <option value="mutism">Mutism</option>
-              <option value="visual-impairment">Visual Impairment</option>
-              <option value="mobility-disabilities">Mobility Disabilities</option>
-              <option value="deaf-and-hard-of-hearing">Deaf and Hard of Hearing</option>
-            </select>
-          </div>
-
-          <div class="mb-3">
-            <label for="features">Features</label>
-            <input class="form-input" type="text" id="features" name="features" placeholder="type here" required>
-          </div>
-          
-        </div>
-        
-        <div class="card-footer text-body-secondary">
-          <button type="submit" class="btn btn-primary">Submit</button>
         </div>
       </div>
-
+      
     </section>
 
     <!--About-->
