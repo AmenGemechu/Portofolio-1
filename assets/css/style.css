@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Fira+Sans:wght@300&family=Lato:ital,wght@1,300&family=Oswald:wght@300&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
@@ -101,6 +102,7 @@ nav .brand-title {
 .card p {
     margin: 20px;
 }
+
 .col-6 {
     display: grid;
 }
@@ -143,47 +145,4 @@ footer {
 
 footer .row {
     padding: 2%;
-}
-
-@include media-breakpoint-up(sm) {
-    #feedback .custom-class {
-      display: block;
-    }
-  }
-  
-
-
-
-/*Media query for large screen
-@media (max-width: 800px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .toggle-button {
-        display: flex;
-    }
-
-    .navbar-links {
-        display: none;
-        width: 100%;
-    }
-
-    .navbar-links ul {
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .navbar-links ul li {
-        text-align: center;
-    }
-
-    .navbar-links ul li a {
-        padding: .5rem 1rem;
-    }
-
-    .navbar-links.active {
-        display: flex;
-    }
 }
