@@ -6,41 +6,39 @@
  The website is created to inform users about useful applications out there that will help make their everyday lives easier.
 
 
-In addition to list of applications users will also be able to find information about app details, functionality and device compatibility.
+In addition to list of applications users will also be able to find information about app details, functionality device compatibility and direct link to download apps.
 
-![Website screenshot](https://github.com/AmenGemechu/Portofolio-1/blob/main/assets/images/Screenhot.png)
+![pp1-full](https://github.com/AmenGemechu/Portofolio-1/assets/81637641/a7c0c2bb-228e-4d48-8333-535ada7b25ee)
+
 
 ## Features
 
 * Header 
-    - the section displays the website name on the left side.
+    - the section displays the logo name on the left side.
 * Navigation link 
-    - The responsive navigation bar on the right side includes links to all three sections of the page, Home, Apps and Feedback form.
+    - The responsive navigation bar on the right side includes links to all sections of the page, Home, Apps, Feedback & about.
     - This section will allow the user to easily navigate from section to section across all devices.
-
-
-![header](https://user-images.githubusercontent.com/81637641/222140856-69c58b9e-9258-4b04-ba5d-a37277f21348.png)
+![header](https://github.com/AmenGemechu/Portofolio-1/assets/81637641/435a393d-4e09-40c5-9a83-2b4b63b0f354)
 
 * Home
 * - The Home section displays a hero-image a cover-text telling users what the website is about.
+![home](https://github.com/AmenGemechu/Portofolio-1/assets/81637641/78f13748-fde1-43b7-8d84-e01fcd0d9cee)
 
-![home](https://user-images.githubusercontent.com/81637641/222145687-cb0a7203-4ad4-4bdf-8c91-e3a089d6c0e3.png)
 
 * Apps
-- The Apps section will allow user to see the listed disable friendly applications, as well as the discription and divice compatability.
+- The Apps section will allow user to see the listed disable friendly applications, as well as the discription and a button that links to app store/website.
   
-![apps](https://user-images.githubusercontent.com/81637641/222147279-d749ea5f-169b-4739-b76e-e44c98e04f39.png)
+![apps](https://github.com/AmenGemechu/Portofolio-1/assets/81637641/4c3e6eee-3b63-4577-b1c3-771c2c879ec1)
 
 * Feedback
    - This section asks user to share their opinion by filling a form about features they wish were included in the applications. 
-   - This form contains an input field of Name, Email and Features along with a dropdown menu of Disabilities, all with a placeholder text and a Submit button.
-   
-![form](https://user-images.githubusercontent.com/81637641/222149591-b80861e3-ab1d-4745-81e4-8a9a3ddbbbdf.png)
+   - This form contains an input field of Name, Features and adropdown list of disabilities, all with a submit button.
+   ![feedback](https://github.com/AmenGemechu/Portofolio-1/assets/81637641/ba14cf74-0354-4246-bfc5-595159db7126)
 
 * Footer
  - The footer section includes links to social media sites. The links open in a new tab.
- 
- ![footer](https://user-images.githubusercontent.com/81637641/222150529-5bf94af4-7d2b-4888-a894-21c052720e48.png)
+ ![footer](https://github.com/AmenGemechu/Portofolio-1/assets/81637641/2cf8948d-f156-4a5c-b082-a3e8866895ec)
+
 
 ## Testing
 Site was tested on different browsers (Crome, safari & Firefox) and screen sizes (Laptop, Desktop & Mobile phone). All features work as intended.
